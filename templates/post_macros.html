@@ -1,0 +1,33 @@
+{% macro meta(page) %}
+    <svg class="pr-1 pl-1 i-edit" viewBox="0 0 32 32"
+         width="16" height="16" fill="none" stroke="currentcolor"
+         stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+        <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z"/>
+    </svg>
+    {% if page.date %}Published: {{ page.date | date(format="%F") }}{% endif %}
+{% endmacro meta %}
+
+{% macro page_in_list(page) %}
+<article class="flex w-2/3 p-2" itemscope itemtype="http://schema.org/CreativeWork">
+    <div style="width: 240px" class="mr-2">
+        {% if page.extra.img %}
+        <a itemprop="url" href="{{ page.permalink | safe }}">
+            <img src="{{ resize_image(path=page.extra.img, width=240, height=180, op="fill") }}" />
+        </a>
+        {% endif %}
+    </div>
+    <div class="w-2/3">
+        <header>
+            <h2 class="text-2xl" itemprop="name">
+                <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+            </h2>
+            <span class="flex muted">{{ self::meta(page=page) }}</span>
+        </header>
+        {% if page.summary %}
+        <div itemprop="summary">
+            {{ page.summary | safe }}
+        </div>
+        {% endif %}
+        <div>
+</article>
+{% endmacro page_in_list %}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+        <url>
+            <loc>http://127.0.0.1:1111/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/ca-gofundme-studsf/</loc>
+            
+                <lastmod>2020-03-20</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/ca-public-works-staff-support/</loc>
+            
+                <lastmod>2020-03-20</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/ca-save-our-faves/</loc>
+            
+                <lastmod>2020-03-20</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/ca-sf-queer-nightlife-fund/</loc>
+            
+                <lastmod>2020-03-20</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/business/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/donations/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/food/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>http://127.0.0.1:1111/tags/nightlife/</loc>
+            
+        </url>
+    
+</urlset>

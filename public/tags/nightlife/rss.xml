@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title></title>
+        <link>http://127.0.0.1:1111</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="http://127.0.0.1:1111/tags/nightlife/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>Support The Stud Bar Staff</title>
+                <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+                <link>http://127.0.0.1:1111/ca-gofundme-studsf/</link>
+                <guid>http://127.0.0.1:1111/ca-gofundme-studsf/</guid>
+                <description>&lt;p&gt;Support local restaruants by purchasing gift cards.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>Public Works Staff Support Fund</title>
+                <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+                <link>http://127.0.0.1:1111/ca-public-works-staff-support/</link>
+                <guid>http://127.0.0.1:1111/ca-public-works-staff-support/</guid>
+                <description>&lt;p&gt;Support local restaruants by purchasing gift cards.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>San Francisco Queer Nightlife Fund</title>
+                <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+                <link>http://127.0.0.1:1111/ca-sf-queer-nightlife-fund/</link>
+                <guid>http://127.0.0.1:1111/ca-sf-queer-nightlife-fund/</guid>
+                <description>&lt;p&gt;Support local restaruants by purchasing gift cards.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>
